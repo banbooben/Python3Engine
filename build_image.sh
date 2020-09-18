@@ -7,5 +7,5 @@
  ###
 
 printf "\n================ Start build engine-py3:latest image ================\n\n"
-docker build -t engine-py3:latest .
+docker build -t base_image/py3_dev:latest .
 printf "\n================ engine-py3:latest image build Successful ================\n\n"
